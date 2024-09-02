@@ -1,0 +1,25 @@
+{
+  "name": "selenium_test",
+  "version": "1.0.0",
+  "description": "",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --timeout 60000 --require utils/hooks.js"
+  },
+  "author": "ammorenov",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.10",
+    "chromedriver": "^126.0",
+    "mocha": "^10.2.0",
+    "selenium": "^2.20.0",
+    "selenium-webdriver": "^4.16.0",
+    "webdriver": "^8.27.0"
+  },
+  "devDependencies": {
+    "@percy/cli": "^1.28.8",
+    "@percy/selenium-webdriver": "^2.0.5"
+  }
+}
